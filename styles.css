@@ -1,0 +1,77 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.background-image {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+}
+
+.overlap {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: whitesmoke;
+    height: 100%;
+    width: 100%;
+    font-size: 45px;
+    flex-direction: column;
+}
+
+.link {
+    color: white;
+    border-radius: 40px;
+    padding: 20px 40px;
+    font-weight: 400;
+    background-color: tomato;
+    text-decoration: none;
+}
+
+.donation {
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-top: 8%;
+}
+
+.donation h1 {
+    font-size: 55px;
+    font-weight: 600;
+
+
+
+}
+
+.money {
+    padding: 5px 5px;
+    flex-basis: 15%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    background-color: rgb(255, 247, 247);
+
+}
+
+#two {
+    border: 5px solid lightblue;
+}
+
+.add-money {
+    margin-bottom: 15%;
+}
+
+.button {
+    background-color: tomato border-radius: 10%;
+    padding: 10px 10px;
+    font-weight: 700;
+    margin-top: 2%;
+
+}
