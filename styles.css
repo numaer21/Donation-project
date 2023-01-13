@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
 
+
 }
 
 .background-image {
@@ -43,20 +44,26 @@ body {
 }
 
 .donation h1 {
-    font-size: 55px;
+    font-size: 70px;
     font-weight: 600;
 
 
 
 }
 
+.donation h2 {
+    font-size: 55px;
+    font-weight: 600;
+}
+
 .money {
-    padding: 5px 5px;
-    flex-basis: 15%;
-    box-sizing: border-box;
-    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
     margin-bottom: 5%;
     background-color: rgb(255, 247, 247);
+    font-size: 15px;
+    color: gray;
 
 }
 
@@ -65,13 +72,27 @@ body {
 }
 
 .add-money {
-    margin-bottom: 15%;
+    margin-bottom: 10%;
+    color: gray;
+    font-weight: 100;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 .button {
-    background-color: tomato border-radius: 10%;
+    background-color: tomato;
     padding: 10px 10px;
     font-weight: 700;
-    margin-top: 2%;
+    margin-top: 1%;
+    border-radius: 10px;
 
+
+}
+
+.flexible {
+    display: flex;
+}
+
+p {
+    font-size: 23px;
 }
