@@ -72,7 +72,7 @@ body {
 }
 
 .add-money {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     color: gray;
     font-weight: 100;
     font-size: 30px;
@@ -94,5 +94,45 @@ body {
 }
 
 p {
-    font-size: 23px;
+    font-size: 24px;
+}
+
+.hard-work h2 {
+    font-size: 35px;
+}
+
+.hard-work p {
+    text-align: justify;
+}
+
+.hard-work {
+    margin: auto;
+
+}
+
+.shelter {
+
+    justify-content: space-between;
+    margin: 5%;
+}
+
+#education {
+    background-color: bisque;
+    border-radius: 5%;
+}
+
+.flexible-container h1 {
+    font-size: 55px;
+}
+
+.flexible-container {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+.half-width img {
+    border-radius: 8%;
 }
